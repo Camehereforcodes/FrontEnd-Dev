@@ -17,7 +17,7 @@ function countdown () {
     hour = Math.floor(mins / 60);
     mins = mins % 60;
     day = Math.floor(hour / 24);
-    hour = hour % 24;
+    hour = hour%24;
     
     daysel.innerHTML = day;
     hoursel.innerHTML = formatTime(hour);
