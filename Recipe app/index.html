@@ -4,11 +4,32 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Title</title>
+    <title>Recipe App</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
     <link rel="stylesheet" href="style.css">
-    <script src="script.js"></script>
 </head>
 <body>
-    <h1>Hello</h1>
+    <div class="mobile-container">
+        <header>
+            <input type="text">
+            <button id="search"><i class="fas fa-search"></i>
+            </button>
+        </header>
+        <div class="fav-container">
+            <h3>Favorite meals</h3>
+            <ul class="fav-meals">
+                <li><img src="https://www.themealdb.com/images/ingredients/Lime.png" alt="">
+                    <span>Lime</span></li>
+                <li><img src="https://www.themealdb.com/images/media/meals/llcbn01574260722.jpg/preview" alt="">
+                    <span>Carbonara</span></li>
+                <li><img src="https:\/\/www.themealdb.com\/images\/media\/meals\/qtqvys1468573168.jpg" alt="">
+                    <span>Rigatoni</span></li>
+                <li><img src="https:\/\/www.themealdb.com\/images\/media\/meals\/1529444830.jpg" alt="">
+                    <span>Lo mein</span></li>
+            </ul>
+        </div>
+        <div class="meals" id="meals"></div>
+    </div>
+    <script src="script.js"></script>
 </body>
 </html>
